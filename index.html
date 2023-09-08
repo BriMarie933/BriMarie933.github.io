@@ -7,83 +7,122 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
-    <h1>Brianna Clark</h1>
+    <div class="center">
+        <h1 class="title">Brianna Clark</h1>
+    </div>
 
-    <h2>Net ID: k39q134</h2>
+    <div class="center">
+        <h2 class="netID">Net ID: k39q134</h2>
+    </div>
 
-    <h2>Class Schedule</h2>
+    <a class="github" href="https://brimarie933.github.io/">My GitHub Pages</a>
 
-    <table>
-        <tr> 
-            <td> </td>
-            <td><b>Monday</b></td>
-            <td><b>Tuesday</b></td>
-            <td><b>Wednesday</b></td>
-            <td><b>Thursday</b></td>
-            <td><b>Friday</b></td>
-        </tr>
-        <tr> 
-            <td>11:00</td>
-            <td>WORK</td>
-            <td>WORK</td>
-            <td>WORK</td>
-            <td>WORK</td>
-            <td>WORK</td>
-        </tr>
-        <tr> 
-            <td>12:00</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr> 
-            <td>1:00</td>
-            <td>CSCI 443</td>
-            <td></td>
-            <td>CSCI 443</td>
-            <td></td>
-            <td>CSCI 443</td>
-        </tr>
-        <tr> 
-            <td>2:00</td>
-            <td>CSCI 440</td>
-            <td></td>
-            <td>CSCI 440</td>
-            <td></td>
-            <td>CSCI 440</td>
-        </tr>
-        <tr> 
-            <td>3:00</td>
-            <td>EGEN 310</td>
-            <td>CSCI 476</td>
-            <td>EGEN 310</td>
-            <td>CSCI 476</td>
-            <td>EGEN 310</td>
-        </tr>
-        <tr> 
-            <td>4:00</td>
-            <td>CSCI 331</td>
-            <td></td>
-            <td>CSCI 331</td>
-            <td></td>
-            <td>CSCI 331</td>
-        </tr>
-      </table>
-
-    <h2>Previous Courses</h2>
-    <ul>
-        <li>CSCI 107</li>
-        <li>CSCI 127</li>
-        <li>CSCI 132</li>
-        <li>CSCI 232</li>
-        <li>CSCI 145</li>
-        <li>CSCI 443</li>
-        <li>CSCI 112</li>     
-    </ul>
-    
-    <a href="https://brimarie933.github.io/">My GitHub Pages</a>
-    
+    <div class="container flex-container">
+        <div class="column">
+            <h2 class="columnHeading">Quick Check-In Questionnare:</h2>
+                <div class ="tensionPoint">
+                    <form action="https://www.cs.montana.edu/users/h48c334/form-viewer.php" method="get">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value=""><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value=""><br><br>
+                    <p>How are you feeling today:</p>
+                        <input type="radio" id="great" name="mood" value="great">
+                        <label for="html">Great</label><br>
+                        <input type="radio" id="okay" name="mood" value="okay">
+                        <label for="okay">Okay</label><br>
+                        <input type="radio" id="bad" name="mood" value="bad">
+                        <label for="bad">Bad</label><br><br>
+                        <input type="submit">
+                    </form>
+                </div>
+            <h2 class="columnHeading">My Interests: Art and Music</h2>
+                <a href="https://en.wikipedia.org/wiki/art" class="image-link">
+                    <img src="images/art.jpg" alt="Art Pic" class="image">
+                </a>
+                <a href="https://en.wikipedia.org/wiki/music" class="image-link">
+                    <img src="images/music.jpg" alt="Music Pic" class="image">
+                </a>
+        </div>
+        <div class="column">
+            <h2 class="columnHeading">Class Schedule</h2>
+            <table class="lined-table">
+                <tr>
+                  <th>Time</th>
+                  <th>Monday</th>
+                  <th class="special-cell">Tuesday</th>
+                  <th>Wednesday</th>
+                  <th class="special-cell">Thursday</th>
+                  <th>Friday</th>
+                </tr>
+                <tr>
+                  <td>10:00</td>
+                  <td>WORK</td>
+                  <td class="special-cell">WORK</td>
+                  <td>WORK</td>
+                  <td class="special-cell">WORK</td>
+                  <td>WORK</td>
+                </tr>
+                <tr>
+                  <td>11:00</td>
+                  <td></td>
+                  <td class="special-cell"></td>
+                  <td></td>
+                  <td class="special-cell"></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>12:00</td>
+                  <td></td>
+                  <td class="special-cell"></td>
+                  <td></td>
+                  <td class="special-cell"></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>1:00</td>
+                  <td>CSCI 443</td>
+                  <td class="special-cell"></td>
+                  <td>CSCI 443</td>
+                  <td class="special-cell"></td>
+                  <td>CSCI 443</td>
+                </tr>
+                <tr>
+                  <td>2:00</td>
+                  <td>CSCI 440</td>
+                  <td class="special-cell"></td>
+                  <td>CSCI 440</td>
+                  <td class="special-cell"></td>
+                  <td>CSCI 440</td>
+                </tr>
+                <tr>
+                  <td>3:00</td>
+                  <td>EGEN 310</td>
+                  <td class="special-cell">CSCI 476</td>
+                  <td>EGEN 310</td>
+                  <td class="special-cell">CSCI 476</td>
+                  <td>EGEN 310</td>
+                </tr>
+                <tr>
+                  <td>4:00</td>
+                  <td>CSCI 331</td>
+                  <td class="special-cell"></td>
+                  <td>CSCI 331</td>
+                  <td class="special-cell"></td>
+                  <td>CSCI 331</td>
+                </tr>
+            </table>
+            <h2 class="columnHeading">Previous Courses</h2>
+            <ul class="tensionPoint">
+                <li>CSCI 107</li>
+                <li>CSCI 127</li>
+                <li>CSCI 132</li>
+                <li>CSCI 232</li>
+                <li>CSCI 145</li>
+                <li>CSCI 443</li>
+                <li>CSCI 112</li>     
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
