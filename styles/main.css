@@ -1,0 +1,81 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    text-align: center;
+  }
+  
+.title {
+    /* font-family: Arial, sans-serif; /* Set the font to Arial with a fallback sans-serif */
+    font-size: 30px; 
+    font-weight: bold; 
+    padding: 20px; 
+    color: darkslategrey;
+}
+
+.netID {
+    /* font-family: Arial, sans-serif; /* Set the font to Arial with a fallback sans-serif */
+    font-weight: bold; 
+    background-color: yellow;
+}
+
+.github {
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    padding: 30px
+}
+  
+.column {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid #ccc; 
+}
+
+.columnHeading {
+    /* font-family: Arial, sans-serif; */
+    font-weight: bold;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid #000;
+    transition: border-color 0.3s; /* Add transition effect to border-color */
+  }
+  
+.image:hover {
+    border-color: #6ab099;
+}
+
+.lined-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+  
+.special-cell {
+    color: #e0f6ef;
+}
+  
+.special-cell:not(:empty) {
+    background-color: #6ab099;
+}
+
+.tensionPoint {
+    padding-left: 70px;
+}
